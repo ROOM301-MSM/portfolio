@@ -1,0 +1,156 @@
+@charset "UTF-8";
+html{
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+    color: rgb(17, 15, 15);
+    text-align: center;
+}
+img{
+    max-width: 100%;
+    background-color: rgb(124, 25, 253);
+}
+main{
+    margin: 90px auto 90px auto;
+    max-width: 1000px;
+}
+
+/* すべてのページに適用 -  ヘッダー */
+.header{
+    background-color: rgb(124, 25, 253);
+    border: 5px solid rgb(182, 2, 182);
+    display: flex;
+    grid-template-columns: 1rf 1rf;
+}
+.logo{
+    padding: 20px;
+    padding-right: 650px;
+}
+.hed{
+    padding-top: 10px;
+}
+.ul{
+    margin: 20px;
+}
+.nav ul{
+    font-family: "UnifrakturCook", cursive;
+    font-size: 2rem;
+    background-color: rgb(124, 25, 253);
+
+    padding: 0;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: right;
+    gap: 40px;
+}
+.nav a:link{
+    text-decoration: none;
+}
+nav a:visited{
+    color: rgb(238,19,92);
+}
+nav a:hover{
+    color: rgb(238,19,92);
+    text-decoration: underline;
+}
+nav a:active{
+    text-decoration: underline;
+}
+li{
+    background-color: rgb(124, 25, 253);
+}
+
+/* すべてのページに適用 - ヒーロー */
+.hero{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+.hero.top{
+   padding: 287px 0;
+    background-image: url(../images/top.png);
+    background-repeat: repeat-x;
+    font-family: "Henny Penny", system-ui;
+    color: rgb(238,19,92);
+    font-size: 3rem;
+}
+
+.hoter{
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    background-color: rgb(124, 25, 253);
+    border: 5px solid rgb(182, 2, 182);
+    text-align: center;
+}
+
+/* NEWS */
+.newstitle{
+    font-family: "Henny Penny", system-ui;
+    background-color: rgb(238,19,92);
+    color: white;
+    border: 3px solid rgb(124, 25, 253);
+    border-radius: 50px;
+    margin: 20px 600px;
+}
+.news ul li{
+    background-color: white;
+    list-style-type: none;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 300px;
+}
+.news li{
+    font-family: "Kiwi Maru", serif;
+}
+
+/* ABOUT */
+.plofimg img{
+    background-color: white;
+    margin-top: 20px;
+}
+.name{
+    margin-top: 0;
+}
+.kiwi{
+    font-family: "Kiwi Maru", serif;
+}
+
+/* CONTACT */
+
+
+/* WORKS */
+.works ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.works ul li{
+    background-color: rgb(238,19,92);
+}
+.works li{
+    border: 3px solid rgb(124, 25, 253);
+    border-radius: 50px;
+    font-family: "Kiwi Maru", serif;
+}
+.works a:link{
+    text-decoration: none;
+}
+.works a:visited{
+    color: black;
+}
+.works a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.works a:active{
+    text-decoration: none;
+}
+/* WORKS -  */
